@@ -37,8 +37,8 @@ const quotes = [
     },
     {
         quote:"If you spend too much time thinking about a thing, you’ll never get it done.",
-        author:"Bruce Lee"
-    }
+        author:"Bruce Lee",
+    },
 ];
 
 const quote = document.querySelector("#quote span:first-child");
