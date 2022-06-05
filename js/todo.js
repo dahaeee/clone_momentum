@@ -52,3 +52,6 @@ if(savedToDos) {
     parsedToDos.forEach(paintToDo);
 }
 
+$('li span').click(function(){
+    $(this).toggleClass('active');
+})

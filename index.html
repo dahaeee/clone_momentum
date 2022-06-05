@@ -8,13 +8,15 @@
     <title>Momentum</title>
 </head>
 <body>
+    <div id="random-img"></div>
+    <h3 id="date">0000.00.00</h3>
     <h2 id="clock">00:00:00</h2>
     <form id="login-form" class="hidden">
         <input 
         required 
         maxlength="15" 
         type="text" 
-        placeholder="What is your name?"/>
+        placeholder="이름을 입력하세요!"/>
     </form>
     <h1 id="greeting" class="hidden"></h1>
     <form id="todo-form" class="hidden">
@@ -31,8 +33,7 @@
     </div> 
     
 
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
