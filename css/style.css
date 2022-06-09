@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Montserrat:ital,wght@1,100&display=swap');
 
 body {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     height: 100vh;
     display: flex;
@@ -10,6 +11,19 @@ body {
 }
 .hidden {
     display: none;
+}
+
+#bgImg {
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    z-index: -1;
 }
 
 #greeting {
@@ -65,6 +79,8 @@ li span.active {
 }
 
 input {
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
     line-height: 2;
     text-align: center;

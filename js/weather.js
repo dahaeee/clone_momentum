@@ -10,8 +10,8 @@ function onGeoOk(position){
         .then((data) => {
             const weather = document.querySelector("#weather span:first-child");
             const city = document.querySelector("#weather span:last-child");
-            city.innerText = `현재 위치 : ${data.name}`;
-            weather.innerText = `오늘의 날씨 : ${data.weather[0].main}`;
+            city.innerText = `location : ${data.name}`;
+            weather.innerText = `Today's weather : ${data.weather[0].main}`;
     });
 }
 
