@@ -4,7 +4,6 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     color: white;
     height: 100vh;
-    background: linear-gradient(70deg, rgb(206, 154, 175), rgb(165, 165, 215), rgb(224, 231, 155));
     display: flex;
     justify-content: center;
     align-items: center;

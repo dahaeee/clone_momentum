@@ -1,13 +1,13 @@
-// const images = [
-//     "0.jpg", "1.jpg", "2.jpg"
-// ];
+const images = [
+    "0.jpg", "1.jpg", "2.jpg"
+];
 
-// const RandomImage = document.querySelector("#random-img");
+const RandomImage = document.querySelector("#random-img");
 
-// const chosenImage = images[Math.floor(Math.random() * images.length)];
+const chosenImage = images[Math.floor(Math.random() * images.length)];
 
-// const bgImage = document.createElement("img");
+const bgImage = document.createElement("img");
 
-// bgImage.src = `img/${chosenImage}`;
+bgImage.src = `img/${chosenImage}`;
 
-// RandomImage.appendChild(bgImage);
+RandomImage.appendChild(bgImage);
